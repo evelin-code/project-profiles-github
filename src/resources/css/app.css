@@ -1,0 +1,70 @@
+.app {
+  padding: 20px 10px 50px 10px;
+}
+
+.container-title {
+  background-color: #fa8072;
+  width: 60%;
+  height: auto;
+  border-radius: 50px;
+  align-items: center;
+  display: table;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.titles {
+  text-align: center;
+  color: #ffffff;
+  width: 80%;
+  height: 60%;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.input-search {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background-color: #fa8072;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.input-search:focus {
+  outline: none;
+  border-bottom: 1px solid #ffffff;
+  background-color: #fa8072;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.input-search::placeholder {
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.icon-sistrix {
+  background-color: #fa8072;
+  width: 20px;
+  height: 50px;
+  color: #ffffff;
+  border: 0;
+  margin: 0;
+  outline: none;
+}
+
+.container-cards {
+  width: 70%;
+}

@@ -1,0 +1,51 @@
+.line-hr {
+  height: 3px;
+  border-color: #fa8072;
+  background-color: #fa8072;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card-container {
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+  border: none !important;
+  align-items: center;
+}
+
+.card-container:hover {
+  box-shadow: 0px 0px 15px 0 rgba(250, 128, 114, 1);
+}
+
+.photo {
+  object-fit: cover;
+  width: 80%;
+  height: 80%;
+  padding: 7%;
+}
+
+.card-title {
+  width: 100%;
+  padding: 10px;
+}
+
+.container-body {
+  width: 100%;
+}
+
+.btn-followers {
+  width: 90%;
+}
+.icon-github {
+  width: 35px;
+  height: 35px;
+  padding-left: 10px;
+}
+
+.github-a {
+  color: #000000;
+}
+
+.github-a:hover {
+  color: #000000;
+}
+
