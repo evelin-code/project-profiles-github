@@ -1,0 +1,13 @@
+.container-repos {
+  border: none !important;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+.name-repo {
+  color: #000000;
+  text-decoration: none;
+}
+
+.name-repo:hover {
+  color: #000000;
+}

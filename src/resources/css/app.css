@@ -65,6 +65,27 @@
   outline: none;
 }
 
+.container-pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container-pagination select, 
+.pagination button {
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffffff;
+}
+
+.pagination button {
+  background-color: #fa8072;
+  color: #ffffff;
+  margin: 0 5px;
+}
+
 .container-cards {
   width: 70%;
 }

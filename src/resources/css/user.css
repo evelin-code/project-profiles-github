@@ -1,0 +1,26 @@
+.container-back {
+  padding: 50px 50px 50px 50px;
+}
+
+.icon-arrow {
+  width: 35px;
+  height: 35px;
+}
+
+.icon-arrow-a {
+  color: #000000;
+}
+
+.icon-arrow-a:hover {
+  color: #000000;
+}
+
+.card-container-profile {
+  border: none !important;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+.container-profile {
+  width: 50%;
+  height: auto;
+}

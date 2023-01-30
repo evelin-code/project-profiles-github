@@ -1,9 +1,11 @@
 import React from "react";
+import "./../resources/css/cards.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 
 function Card({ user }) {
-  const { avatar_url, login, html_url } = user;
+  const { avatar_url, login, html_url, id } = user;
 
   return (
     <div className="card text-center mt-5 p-3 rounded-0 card-container">
@@ -16,9 +18,12 @@ function Card({ user }) {
         <hr className="line-hr" />
         <h4 className="card-title">{login}</h4>
         <div className="container-icons d-flex justify-content-center">
-          <a href="#!" className="btn btn-outline-dark rounded-5 btn-followers">
-            Seguidores
-          </a>
+          <Link
+            to={`/usuario/${login}`}
+            className="btn btn-outline-dark rounded-5 btn-followers"
+          >
+            Detalles
+          </Link>
           <a href={html_url} className="github-a">
             <FontAwesomeIcon
               icon={faGithub}
